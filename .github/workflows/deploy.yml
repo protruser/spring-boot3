@@ -35,7 +35,7 @@ jobs:
           context: ./springboot-app2
           file: ./springboot-app2/Dockerfile
           push: true
-          tags: jungwonalicia/springboot2-web3:latest
+          tags: protruser/springboot2-web3:latest
           platforms: linux/amd64
 
       # 5. 서버 배포 경로 변수 설정
