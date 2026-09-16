@@ -2,8 +2,8 @@ version: "3.9"
 
 services:
   web2:
-    # build: ./springboot-app2
-    image: protruser/springboot2-web2:2.0
+    build: ./springboot-app2
+    # image: protruser/springboot2-web2:2.0
     container_name: springboot_app2
     ports:
       - "9090:8080"
