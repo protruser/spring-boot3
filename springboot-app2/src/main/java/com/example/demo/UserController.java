@@ -17,11 +17,16 @@ public class UserController {
 
     @GetMapping("/")
     public String hello() {
-        return "<body bgcolor=green>Spring Boot START PAGE</body>";
+        return "<body bgcolor=yellow>Changed!!!</body>";
     }
 
-    @GetMapping("/mysql")
-    public String dbTest() {
+    @GetMapping("/red")
+    public String hello2() {
+        return "<body bgcolor=red></body>"
+    }
+
+    @GetMapping("/mysql2")
+    public String dbTest2() {
         try {
             String sql = "select now()";
             String result = jdbcTemplate.queryForObject(sql, String.class);
