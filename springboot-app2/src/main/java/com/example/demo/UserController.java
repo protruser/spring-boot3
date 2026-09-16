@@ -24,7 +24,7 @@ public class UserController {
     public String hello2() {
         return "<body bgcolor=red></body>";
     }
-    
+
 
     @GetMapping("/mysql2")
     public String dbTest2() {
@@ -60,3 +60,4 @@ public class UserController {
         }
     }
 }
+
