@@ -22,7 +22,7 @@ public class UserController {
 
     @GetMapping("/red")
     public String hello2() {
-        return "<body bgcolor=red></body>"
+        return "<body bgcolor=red></body>";
     }
 
     @GetMapping("/mysql2")
